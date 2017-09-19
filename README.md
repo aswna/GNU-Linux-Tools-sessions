@@ -13,3 +13,9 @@ The final PDF files (<code>presentation.pdf</code>) are also added to this repos
     - History of Unix Operating Systems and Unix shells
     - The <code>script</code> command
     - Performance and limitation considerations of shell scripts
+
+  * [02](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/02) ([pdf](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/02/screenshots/presentation.pdf))
+    - The <code>cat</code> command
+    - Box-drawing characters
+    - ASCII art and animations
+    - <code>GNU screen</code> basics

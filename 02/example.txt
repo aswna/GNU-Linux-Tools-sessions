@@ -1,0 +1,9 @@
+This is the first line with three spaces at the end.   
+This is the second line	containing	TAB	characters.
+This line contains some [3~[2~OOOgarbage.
+
+There are some empty lines around this one.
+
+
+
+Finally, this is the last line.
