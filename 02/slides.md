@@ -472,8 +472,10 @@ screen -U -dRR -c $HOME/.screenrc.test -T screen-256color~}
 {~Customizable~} command character: each command begins with a Control-a
 {~(CTRL-a, C-a, ^A or ^a)~} keystroke.
 
+```markdown
 {~Reference:
 https://www.gnu.org/software/screen/manual/screen.html#Command-Character~}
+```
 
 
 # screen
@@ -560,7 +562,9 @@ Rename current window           C-a A
 • What will be the output of the below command?
   {~Find example.txt in the repository!~}
 
-  \> cat -A example.txt
+```markdown
+  > cat -A example.txt
+```
 
 
 # Homework

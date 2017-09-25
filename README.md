@@ -10,12 +10,17 @@ The final PDF files (<code>presentation.pdf</code>) are also added to this repos
 
 ## Content
   * [01](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/01) ([pdf](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/01/screenshots/presentation.pdf))
-    - History of Unix Operating Systems and Unix shells
+    - Operating Systems introduction
+    - History of Unix and Unix-like Operating Systems
+    - History of Unix shells
     - The <code>script</code> command
     - Performance and limitation considerations of shell scripts
 
   * [02](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/02) ([pdf](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/02/screenshots/presentation.pdf))
     - The <code>cat</code> command
+    - Redirection basics (redirecting output)
+    - Here-string
+    - Terminals, terminal emulators
     - Box-drawing characters
     - ASCII art and animations
     - <code>GNU screen</code> basics
