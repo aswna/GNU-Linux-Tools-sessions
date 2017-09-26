@@ -1,7 +1,3 @@
-" ----------
-" script.vim
-" ----------
-
 call matchadd("Comment", ".*sqz.*\\(\\_.*slide 009\\)\\@=")
 
 " vimdeck currently cannot comment lines containing \ marks...
