@@ -1,0 +1,6 @@
+call matchadd("Comment", ".*state: on.*\\(\\_.*slide 010\\)\\@=")
+call matchadd("Comment", ".*state: on.*\\(\\_.*slide 011\\)\\@=")
+call matchadd("Comment", ".*state: on.*\\(\\_.*slide 012\\)\\@=")
+call matchadd("Comment", ".*state: on.*\\(\\_.*slide 013\\)\\@=")
+call matchadd("Comment", ".*state: on.*\\(\\_.*slide 014\\)\\@=")
+call matchadd("Comment", ".*state: on.*\\(\\_.*slide 015\\)\\@=")

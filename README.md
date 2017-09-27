@@ -24,3 +24,12 @@ The final PDF files (<code>presentation.pdf</code>) are also added to this repos
     - Box-drawing characters
     - ASCII art and animations
     - <code>GNU screen</code> basics
+
+  * [03](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/03) ([pdf](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/03/screenshots/presentation.pdf))
+    - Homework check
+    - foobar
+    - Some <code>GNU screen</code> features
+      - regions (split)
+      - monitoring (for activity, for silence)
+      - logging (hardcopy, real logging)
+      - sharing (screen exchange, multiuser session)
