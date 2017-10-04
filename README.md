@@ -33,7 +33,7 @@ The final PDF files (<code>presentation.pdf</code>) are also added to this repos
       - monitoring (for activity, for silence)
       - logging (hardcopy, real logging)
       - sharing (screen exchange, multiuser session)
-  * [04](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/04) ([txt](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/04/notes.txt))
+  * [04](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/04) ([txt](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/04/notes.txt))
     - Voting about how to continue
     - Linux performance observability tools (Brendan Gregg)
     - Multiple characters as field separators (awk)
