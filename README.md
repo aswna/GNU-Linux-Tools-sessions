@@ -44,6 +44,7 @@ The final PDF files (<code>presentation.pdf</code>) are also added to this repos
   * [05](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/05) ([notes.md](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/05/notes.md))
     - Ghost in the shell
       - The dangers of [parsing ls](http://mywiki.wooledge.org/ParsingLs)
+      - Some examples, trials are collected in [test.sh](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/05/test.sh)
     - Miscellaneous Vim tricks
       - the repeat (".") command
       - retab
