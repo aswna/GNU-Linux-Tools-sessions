@@ -23,7 +23,7 @@ Using the output of *ls* command might be dangerous, since it could be an *alias
     > echo ${LS_OPTIONS}
     -N --color=auto -T 0 -p
 
-Setting the *LS_OPTIONS *to *-1* will result in a very different output.
+Setting the *LS_OPTIONS* to *-1* will result in a very different output.
 
 The really unwise thing is the use the output of *ls* for getting the filenames, since they can contains white-space, etc.
 
@@ -40,11 +40,11 @@ The really unwise thing is the use the output of *ls* for getting the filenames,
 
 * Set *listchars* to make some white-spaces more visible. Example (for UTF-8 capable terminals):
 
-    listchars=tab:▸ ,trail:·,extends:>,precedes:<,nbsp:·
+        listchars=tab:▸ ,trail:·,extends:>,precedes:<,nbsp:·
 
 * Map ";" to ":" in normal mode to spare pressing the shift key for entering *command mode*:
 
-    " No need to press Shift, real optimization for almost all Vim commands.
-    nnoremap ; :
-    " If the repetition of latest f, t, F or T move is needed use below mapping
-    nnoremap <Leader>; ;
+        " No need to press Shift, real optimization for almost all Vim commands.
+        nnoremap ; :
+        " If the repetition of latest f, t, F or T move is needed use below mapping
+        nnoremap <Leader>; ;
