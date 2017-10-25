@@ -51,3 +51,8 @@ The final PDF files (<code>presentation.pdf</code>) are also added to this repos
       - resize
       - listchars
       - map ";" to ":" in normal mode
+
+  * [06](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/06) ([notes.md](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/06/notes.md))
+    - Awking
+    - Grepping and teeing
+    - Toggling line numbers in Vim
