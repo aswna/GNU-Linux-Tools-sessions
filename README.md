@@ -56,3 +56,7 @@ The final PDF files (<code>presentation.pdf</code>) are also added to this repos
     - Awking
     - Grepping and teeing
     - Toggling line numbers in Vim
+
+  * [07](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/07) ([notes.md](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/07/notes.md))
+    - GNU parallel
+    - pssh (parallel-ssh)
