@@ -9,7 +9,7 @@
  - `,` Repeat latest f, t, F or T in opposite direction `[count]` times.
 
 ### Delete and insert
- - `["x]c{motion}` Delete {motion} text [into register x] and start insert.
+ - `c{motion}` Delete `{motion}` text and start insert.
 
 ### Simple changes
  - `r{char}` Replace the character under the cursor with `{char}`.
@@ -49,4 +49,6 @@ script, too, with `set +u`, etc.
  - In the functions, where appropriate, use the `local` keyword for the
    variables to not let them propagate outside of the functions.
 
-See [example.sh](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/08/example.sh).
+See some transformation examples on
+[before.sh](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/08/before.sh) and
+[after.sh](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/08/after.sh).

@@ -63,4 +63,6 @@ The final PDF files (<code>presentation.pdf</code>) are also added to this repos
 
   * [08](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/08) ([notes.md](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/08/notes.md))
     - Some vim commands
-    - Shell script programming tips (example: [example.sh](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/08/example.sh))
+    - Shell script programming tips (example:
+    [before.sh](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/08/before.sh) and
+    [after.sh](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/08/after.sh))
