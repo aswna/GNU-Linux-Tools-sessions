@@ -1,20 +1,20 @@
 # Notes
 ## Some vim commands
 ### Left-right motions
- - f{char} To [count]'th occurrence of {char} to the right.
- - F{char} To the [count]'th occurrence of {char} to the left.
- - t{char} Till before [count]'th occurrence of {char} to the right.
- - T{char} Till after [count]'th occurrence of {char} to the left.
- - ;       Repeat latest f, t, F or T [count] times.
- - ,       Repeat latest f, t, F or T in opposite direction [count] times.
+ - `f{char}` To [count]'th occurrence of {char} to the right.
+ - `F{char}` To the [count]'th occurrence of {char} to the left.
+ - `t{char}` Till before [count]'th occurrence of {char} to the right.
+ - `T{char}` Till after [count]'th occurrence of {char} to the left.
+ - `;` Repeat latest f, t, F or T [count] times.
+ - `,` Repeat latest f, t, F or T in opposite direction [count] times.
 
 ### Delete and insert
- - ["x]c{motion} Delete {motion} text [into register x] and start insert.
+ - `["x]c{motion}` Delete {motion} text [into register x] and start insert.
 
 ### Simple changes
- - r{char} Replace the character under the cursor with {char}.
- - gU{motion} Make {motion} text uppercase.
- - gu{motion} Make {motion} text lowercase.
+ - `r{char}` Replace the character under the cursor with {char}.
+ - `gU{motion}` Make {motion} text uppercase.
+ - `gu{motion}` Make {motion} text lowercase.
 
 ## Shell script programming tips
 ### Error handling
