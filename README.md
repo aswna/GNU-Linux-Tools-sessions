@@ -60,3 +60,7 @@ The final PDF files (<code>presentation.pdf</code>) are also added to this repos
   * [07](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/07) ([notes.md](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/07/notes.md))
     - GNU parallel
     - pssh (parallel-ssh)
+
+  * [08](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/08) ([notes.md](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/08/notes.md))
+    - Some vim commands
+    - Shell script programming tips
