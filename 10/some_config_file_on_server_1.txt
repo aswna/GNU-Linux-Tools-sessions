@@ -1,0 +1,16 @@
+[common]
+parameter1=value1
+parameter2=value2
+
+[topic10]
+parameter1=value1
+parameter2=value2
+
+[topic20]
+parameter1=value1
+parameter2=value2
+parameter3=value3
+
+[topic30]
+parameter1=value1
+parameter2=value2

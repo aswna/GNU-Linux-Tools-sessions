@@ -1,0 +1,13 @@
+--- some_config_file_on_server_1.txt.orig	2018-01-11 09:05:19.374444897 +0100
++++ some_config_file_on_server_1.txt	2018-01-11 09:06:43.120161369 +0100
+@@ -7,8 +7,8 @@
+ parameter2=value2
+ 
+ [topic20]
+-parameter1=value1
+-parameter2=value2
++parameter20=value20
++parameter21=value21
+ parameter3=value3
+ 
+ [topic30]

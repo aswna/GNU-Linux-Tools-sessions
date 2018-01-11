@@ -71,3 +71,6 @@ The final PDF files (<code>presentation.pdf</code>) are also added to this repos
     - Some vim commands
     - Shell script programming tips for error handling (example:
     [error_handling_demo.sh](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/09/error_handling_demo.sh))
+
+  * [10](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/10) ([notes.md](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/10/notes.md))
+    - Patching example
