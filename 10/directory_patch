@@ -1,0 +1,13 @@
+diff -ru reference_directory/a/b/c/a.txt directory_on_server_1/a/b/c/a.txt
+--- reference_directory/a/b/c/a.txt	2018-01-10 14:18:58.434658357 +0100
++++ directory_on_server_1/a/b/c/a.txt	2018-01-10 15:14:21.584069078 +0100
+@@ -3,6 +3,9 @@
+ 3
+ 4444444444444
+ AAAA
++CCCC
++CCCC
++CCCC
+ BBBB
+ 8888888888888
+ 9

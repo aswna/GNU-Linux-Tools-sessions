@@ -1,6 +1,6 @@
 # Notes
 ## Patching
-### Example
+### Example with plain files
 Let's see a small example of patching the same configuration file at
 different places (on different servers). Note that the content of the
 files are similar, but not identical (see later).
@@ -105,7 +105,7 @@ original filename).
     patching file some_config_file_on_server_2.txt
     Hunk #1 succeeded at 7 with fuzz 1.
 
-To check the changes, you can use `vimdiff` as well.
+To check the changes, you can use the `vimdiff` command as well.
 
     vimdiff some_config_file_on_server_2.txt.orig some_config_file_on_server_2.txt
 
@@ -210,5 +210,91 @@ Note that the previous backup file gets overwritten by `patch`, unfortunately.
     > parameter1=value1
     > parameter2=value2
 
-##### DELETE FROM HERE AND BELOW...
-[error_handling_demo.sh](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/09/error_handling_demo.sh).
+### Example with files residing in subdirectories
+
+Let's see the directory structures and the differences!
+
+    > find reference_directory
+    reference_directory
+    reference_directory/a
+    reference_directory/a/b
+    reference_directory/a/b/c
+    reference_directory/a/b/c/a.txt
+    reference_directory/a/b/c/c.txt
+    
+    > find directory_on_server_1
+    directory_on_server_1
+    directory_on_server_1/a
+    directory_on_server_1/a/b
+    directory_on_server_1/a/b/c
+    directory_on_server_1/a/b/c/a.txt
+    directory_on_server_1/a/b/c/c.txt
+
+    > diff -ru reference_directory directory_on_server_1
+    diff -ru reference_directory/a/b/c/a.txt directory_on_server_1/a/b/c/a.txt
+    --- reference_directory/a/b/c/a.txt     2018-01-10 14:18:58.434658357 +0100
+    +++ directory_on_server_1/a/b/c/a.txt   2018-01-10 15:14:21.584069078 +0100
+    @@ -3,6 +3,9 @@
+     3
+     4444444444444
+     AAAA
+    +CCCC
+    +CCCC
+    +CCCC
+     BBBB
+     8888888888888
+     9
+
+Now we create the patch file (*directory_patch*).
+
+    > diff -ru reference_directory directory_on_server_1 >directory_patch
+
+Apply the patch on an other directory with the same structure.
+
+    > cp -r reference_directory directory_on_server_2
+    > patch --dry-run --verbose directory_on_server_2 directory_patch
+    Hmm...  Looks like a unified diff to me...
+    The text leading up to this was:
+    --------------------------
+    |diff -ru reference_directory/a/b/c/a.txt
+    directory_on_server_1/a/b/c/a.txt
+    |--- reference_directory/a/b/c/a.txt    2018-01-10
+    14:18:58.434658357 +0100
+    |+++ directory_on_server_1/a/b/c/a.txt  2018-01-10
+    15:14:21.584069078 +0100
+    --------------------------
+    File directory_on_server_2 is not a regular file -- refusing to
+    patch
+    Hunk #1 ignored at 3.
+    1 out of 1 hunk ignored
+    done
+
+As you can see, the previous method does not work for directories, only
+for files. We can work with that using the other method for invoking
+`patch` command with the *--strip* option.
+
+    > cd directory_on_server_2
+    > patch --dry-run --verbose --strip 1 < ../directory_patch
+    Hmm...  Looks like a unified diff to me...
+    The text leading up to this was:
+    --------------------------
+    |diff -ru reference_directory/a/b/c/a.txt
+    directory_on_server_1/a/b/c/a.txt
+    |--- reference_directory/a/b/c/a.txt    2018-01-10
+    14:18:58.434658357 +0100
+    |+++ directory_on_server_1/a/b/c/a.txt  2018-01-10
+    15:14:21.584069078 +0100
+    --------------------------
+    checking file a/b/c/a.txt
+    Using Plan A...
+    Hunk #1 succeeded at 3.
+    done
+    
+    > patch --backup --strip 1 < ../directory_patch
+    patching file a/b/c/a.txt
+    
+    > diff -r directory_on_server_1 directory_on_server_2
+    Only in directory_on_server_2/a/b/c: a.txt.orig
+
+The patch has been applied successfully, the backup has been created as
+well.
