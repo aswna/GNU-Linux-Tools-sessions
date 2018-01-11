@@ -66,10 +66,8 @@ Now, we check whether we could apply this patch on the next file (*--dry-run*).
     Hmm...  Looks like a unified diff to me...
     The text leading up to this was:
     --------------------------
-    |--- some_config_file_on_server_1.txt.orig      2018-01-11
-    09:05:19.374444897 +0100
-    |+++ some_config_file_on_server_1.txt   2018-01-11
-    09:06:43.120161369 +0100
+    |--- some_config_file_on_server_1.txt.orig      2018-01-11 09:05:19.374444897 +0100
+    |+++ some_config_file_on_server_1.txt   2018-01-11 09:06:43.120161369 +0100
     --------------------------
     checking file some_config_file_on_server_2.txt
     Using Plan A...
@@ -136,10 +134,8 @@ that the patch might not work.
     Hmm...  Looks like a unified diff to me...
     The text leading up to this was:
     --------------------------
-    |--- some_config_file_on_server_1.txt.orig      2018-01-11
-    09:05:19.374444897 +0100
-    |+++ some_config_file_on_server_1.txt   2018-01-11 09:06:43.120161369
-    +0100
+    |--- some_config_file_on_server_1.txt.orig      2018-01-11 09:05:19.374444897 +0100
+    |+++ some_config_file_on_server_1.txt   2018-01-11 09:06:43.120161369 +0100
     --------------------------
     checking file some_config_file_on_server_3.txt
     Using Plan A...
@@ -154,10 +150,8 @@ tweaking the fuzz factor of the `patch` command.
     Hmm...  Looks like a unified diff to me...
     The text leading up to this was:
     --------------------------
-    |--- some_config_file_on_server_1.txt.orig      2018-01-11
-    09:05:19.374444897 +0100
-    |+++ some_config_file_on_server_1.txt   2018-01-11 09:06:43.120161369
-    +0100
+    |--- some_config_file_on_server_1.txt.orig      2018-01-11 09:05:19.374444897 +0100
+    |+++ some_config_file_on_server_1.txt   2018-01-11 09:06:43.120161369 +0100
     --------------------------
     checking file some_config_file_on_server_3.txt
     Using Plan A...
@@ -172,12 +166,9 @@ Let's patch it!
 
 We can check the changes and see that the patch was applied correctly.
 
-    > diff -u some_config_file_on_server_3.txt.orig
-    > some_config_file_on_server_3.txt
-    --- some_config_file_on_server_3.txt.orig       2018-01-10
-    15:52:32.669262611 +0100
-    +++ some_config_file_on_server_3.txt    2018-01-11
-    09:31:35.991858242 +0100
+    > diff -u some_config_file_on_server_3.txt.orig some_config_file_on_server_3.txt
+    --- some_config_file_on_server_3.txt.orig       2018-01-10 15:52:32.669262611 +0100
+    +++ some_config_file_on_server_3.txt    2018-01-11 09:31:35.991858242 +0100
     @@ -8,8 +8,8 @@
      parameter3=value3
     
@@ -256,12 +247,9 @@ Apply the patch on an other directory with the same structure.
     Hmm...  Looks like a unified diff to me...
     The text leading up to this was:
     --------------------------
-    |diff -ru reference_directory/a/b/c/a.txt
-    directory_on_server_1/a/b/c/a.txt
-    |--- reference_directory/a/b/c/a.txt    2018-01-10
-    14:18:58.434658357 +0100
-    |+++ directory_on_server_1/a/b/c/a.txt  2018-01-10
-    15:14:21.584069078 +0100
+    |diff -ru reference_directory/a/b/c/a.txt directory_on_server_1/a/b/c/a.txt
+    |--- reference_directory/a/b/c/a.txt    2018-01-10 14:18:58.434658357 +0100
+    |+++ directory_on_server_1/a/b/c/a.txt  2018-01-10 15:14:21.584069078 +0100
     --------------------------
     File directory_on_server_2 is not a regular file -- refusing to
     patch
@@ -278,12 +266,9 @@ for files. We can work with that using the other method for invoking
     Hmm...  Looks like a unified diff to me...
     The text leading up to this was:
     --------------------------
-    |diff -ru reference_directory/a/b/c/a.txt
-    directory_on_server_1/a/b/c/a.txt
-    |--- reference_directory/a/b/c/a.txt    2018-01-10
-    14:18:58.434658357 +0100
-    |+++ directory_on_server_1/a/b/c/a.txt  2018-01-10
-    15:14:21.584069078 +0100
+    |diff -ru reference_directory/a/b/c/a.txt directory_on_server_1/a/b/c/a.txt
+    |--- reference_directory/a/b/c/a.txt    2018-01-10 14:18:58.434658357 +0100
+    |+++ directory_on_server_1/a/b/c/a.txt  2018-01-10 15:14:21.584069078 +0100
     --------------------------
     checking file a/b/c/a.txt
     Using Plan A...
