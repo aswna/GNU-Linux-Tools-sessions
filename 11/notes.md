@@ -1,18 +1,18 @@
 # Notes
 ## Scripting exercise
 ### Are you ready?
-Write a script, which prints out the following upon execution:
+Write a script (`script.sh`), which prints out the following upon execution:
 
     Hello, <USER>!
 
 where, the `<USER>` is replaced by the (Linux) username of the user, who started the script.
 
-The next line should be "prompt", which asks:
+The next line should be prompt-like, which asks for input:
 
     Are you ready or not? [y/n] 
 
-Note: there is a single space character at the end of this line and it does
-not contain any newline character!
+Note: there is a single space character at the end of this line, and it does
+not contain any newline character (at the end of line)!
 
 If the answer is 'y' (yes), then it should print:
 
