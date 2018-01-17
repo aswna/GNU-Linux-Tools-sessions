@@ -74,3 +74,6 @@ The final PDF files (<code>presentation.pdf</code>) are also added to this repos
 
   * [10](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/10) ([notes.md](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/10/notes.md))
     - Patching example
+
+  * [11](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/11) ([notes.md](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/11/notes.md))
+    - Scripting exercise (Are you ready?)

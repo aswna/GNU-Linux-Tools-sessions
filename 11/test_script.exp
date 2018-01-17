@@ -1,0 +1,73 @@
+#!/usr/bin/expect -f
+
+set timeout 1
+set prompt "(%|#|#:|\\\$|>)(| | \\\[K)$"
+catch {set prompt $env(EXPECT_PROMPT)}
+
+set force_conservative 1
+if {$force_conservative} {
+    set send_slow {1 .1}
+    proc send {ignore arg} {
+        sleep .1
+        exp_send -s -- $arg
+    }
+}
+
+proc fail {} {
+    send_error "\n\nFailed to match expected response.\n"
+    exit 1
+}
+
+proc start_script {} {
+    global env
+    global prompt
+
+    send -- "./script.sh\r"
+    expect {
+        timeout { fail }
+        eof { fail }
+        -exact "Hello, $env(USER)!\r"
+    }
+}
+
+proc are_you_ready { answer expected_message} {
+    global prompt
+
+    expect {
+        timeout { fail }
+        eof { fail }
+        -exact "Are you ready or not? \[y/n\] "
+    }
+
+    send -- "$answer\r"
+    expect {
+        timeout { fail }
+        eof { fail }
+        -exact "$answer\r\nYour answer was '$answer'\r\n$expected_message\r\n"
+    }
+
+    expect {
+        timeout { fail }
+        eof { fail }
+        -re $prompt {}
+    }
+
+    send_user "\n\n=============================\n"
+    send_user "Successfully tested '$answer' case!\n"
+    send_user "=============================\n\n"
+}
+
+spawn /bin/bash
+expect {
+    timeout { fail }
+    eof { fail }
+    -re $prompt {}
+}
+
+start_script
+are_you_ready "y" "OK. You are ready!"
+
+start_script
+are_you_ready "n" "Fine. Then take your time, check back later..."
+
+exit 0
