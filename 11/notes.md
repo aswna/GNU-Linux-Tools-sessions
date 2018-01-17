@@ -5,14 +5,14 @@ Write a script, which prints out the following upon execution:
 
     Hello, <USER>!
 
-where, the <USER> is replaced by the user started the script.
+where, the `<USER>` is replaced by the (Linux) username of the user, who started the script.
 
 The next line should be "prompt", which asks:
 
     Are you ready or not? [y/n] 
 
 Note: there is a single space character at the end of this line and it does
-not contain newline character!
+not contain any newline character!
 
 If the answer is 'y' (yes), then it should print:
 
