@@ -77,3 +77,7 @@ The final PDF files (<code>presentation.pdf</code>) are also added to this repos
 
   * [11](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/11) ([notes.md](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/11/notes.md))
     - Scripting exercise (Are you ready?)
+
+  * [12](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/12) ([notes.md](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/12/notes.md))
+    - Scripting exercise continued
+    - Miscellaneous Vim tricks

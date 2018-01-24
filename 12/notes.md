@@ -18,6 +18,9 @@ How could we change `valasz` to `answer`?
     use 'cw' to change the word, then
     use 'n' to find next match, then
     repeat the last change with '.'.
+    
+    help *
+    help .
 
 How did we finally change `valasz` to `answer`?
 
@@ -32,14 +35,14 @@ How did we finally change `valasz` to `answer`?
 How did we insert `\<valasz\` as the search pattern?
 
     We selected the word 'valasz' with the '*' key, then
-    entered command mode and used 'CTRL-r /' to insert the last search pattern,
-    see the help for 'i_CTRL-R' in vim.
+    entered command mode and used 'CTRL-r /' to insert the last search pattern.
     
     help i_CTRL-R
 
 How can you easily indent some text?
 
     Use >> and << in normal mode.
+    
     help shift-left-right
 
 How can you check your active mappings in vim?
@@ -50,10 +53,14 @@ How can you make trailing spaces more visible?
 
     Check out the 'listchars' string setting
     to be able to customize the view of the TAB character, trailing spaces, etc.
+    
+    help listchars
 
 Where did my deleted text go?
 
-    Check out the 'reg' command!
-    You can use register names to delete / paste text.
-    "udw  : delete word under cursor and save it to register 'u'
-    "uP   : paste the content of register 'u' at the position of the cursor
+    You can use register names to delete / paste text to / from.
+    Example:
+    "udw  : delete word under cursor and save it to register named 'u'
+    "uP   : put the content of register named 'u' before the cursor position
+    
+    help :reg
