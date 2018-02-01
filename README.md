@@ -81,3 +81,6 @@ The final PDF files (<code>presentation.pdf</code>) are also added to this repos
   * [12](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/12) ([notes.md](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/12/notes.md))
     - Scripting exercise continued
     - Miscellaneous Vim tricks
+
+  * [13](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/13) ([notes.md](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/13/notes.md))
+    - Python script for checking duplicate packets in specially formatted large files
