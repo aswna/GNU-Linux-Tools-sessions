@@ -84,3 +84,6 @@ The final PDF files (<code>presentation.pdf</code>) are also added to this repos
 
   * [13](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/13) ([notes.md](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/13/notes.md))
     - Python script for checking duplicate packets in specially formatted large files
+
+  * [14](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/14) ([notes.md](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/14/notes.md))
+    - Modifying previous Python script
