@@ -1,7 +1,7 @@
 # GNU/Linux Tools sessions
 These are my presentations/sessions about GNU/Linux Tools.
 
-The presentations are created with [vimdeck](https://github.com/tybenz/vimdeck) and
+The first few presentations are created with [vimdeck](https://github.com/tybenz/vimdeck) and
 [vimdeck-show](https://github.com/aswna/vimdeck-show). Example:
 
     show.sh 01
@@ -87,3 +87,6 @@ The final PDF files (<code>presentation.pdf</code>) are also added to this repos
 
   * [14](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/14) ([notes.md](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/14/notes.md))
     - Modifying previous Python script
+
+  * [15](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/15) ([notes.md](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/15/notes.md))
+    - Discussing a shell script and some static code checkers
