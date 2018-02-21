@@ -92,5 +92,5 @@ The final PDF files (<code>presentation.pdf</code>) are also added to this repos
     - Discussing a shell script and some static code checkers
 
   * [XVI](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/16) ([notes.md](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/16/notes.md))
-    - Getting familiar with TDD ([Test-driven development](https://en.wikipedia.org/wiki/Test-driven_development))
+    - Getting familiar with TDD (Test-driven development)
     - Implementing FizzBuzz using TDD
