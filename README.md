@@ -9,14 +9,14 @@ The first few presentations are created with [vimdeck](https://github.com/tybenz
 The final PDF files (<code>presentation.pdf</code>) are also added to this repository.
 
 ## Content
-  * [01](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/01) ([presentation.pdf](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/01/screenshots/presentation.pdf))
+  * [I](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/01) ([presentation.pdf](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/01/screenshots/presentation.pdf))
     - Operating Systems introduction
     - History of Unix and Unix-like Operating Systems
     - History of Unix shells
     - The <code>script</code> command
     - Performance and limitation considerations of shell scripts
 
-  * [02](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/02) ([presentation.pdf](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/02/screenshots/presentation.pdf))
+  * [II](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/02) ([presentation.pdf](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/02/screenshots/presentation.pdf))
     - The <code>cat</code> command
     - Redirection basics (redirecting output)
     - Here-string
@@ -25,7 +25,7 @@ The final PDF files (<code>presentation.pdf</code>) are also added to this repos
     - ASCII art and animations
     - <code>GNU screen</code> basics
 
-  * [03](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/03) ([presentation.pdf](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/03/screenshots/presentation.pdf))
+  * [III](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/03) ([presentation.pdf](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/03/screenshots/presentation.pdf))
     - Homework check
     - foobar
     - Some <code>GNU screen</code> features
@@ -34,14 +34,14 @@ The final PDF files (<code>presentation.pdf</code>) are also added to this repos
       - logging (hardcopy, real logging)
       - sharing (screen exchange, multiuser session)
 
-  * [04](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/04) ([notes.txt](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/04/notes.txt))
+  * [IV](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/04) ([notes.txt](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/04/notes.txt))
     - Voting about how to continue
     - Linux performance observability tools (Brendan Gregg)
     - Multiple characters as field separators (awk)
     - Some sed behavior and commands
     - Command-chain vs. single command - a case study :)
 
-  * [05](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/05) ([notes.md](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/05/notes.md))
+  * [V](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/05) ([notes.md](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/05/notes.md))
     - Ghost in the shell
       - The dangers of [parsing ls](http://mywiki.wooledge.org/ParsingLs)
       - Some examples, trials are collected in [test.sh](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/05/test.sh)
@@ -52,41 +52,45 @@ The final PDF files (<code>presentation.pdf</code>) are also added to this repos
       - listchars
       - map ";" to ":" in normal mode
 
-  * [06](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/06) ([notes.md](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/06/notes.md))
+  * [VI](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/06) ([notes.md](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/06/notes.md))
     - Awking
     - Grepping and teeing
     - Toggling line numbers in Vim
 
-  * [07](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/07) ([notes.md](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/07/notes.md))
+  * [VII](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/07) ([notes.md](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/07/notes.md))
     - GNU parallel
     - pssh (parallel-ssh)
 
-  * [08](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/08) ([notes.md](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/08/notes.md))
+  * [VIII](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/08) ([notes.md](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/08/notes.md))
     - Some vim commands
     - Shell script programming tips (example:
     [before.sh](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/08/before.sh) and
     [after.sh](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/08/after.sh))
 
-  * [09](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/09) ([notes.md](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/09/notes.md))
+  * [IX](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/09) ([notes.md](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/09/notes.md))
     - Some vim commands
     - Shell script programming tips for error handling (example:
     [error_handling_demo.sh](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/09/error_handling_demo.sh))
 
-  * [10](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/10) ([notes.md](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/10/notes.md))
+  * [X](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/10) ([notes.md](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/10/notes.md))
     - Patching example
 
-  * [11](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/11) ([notes.md](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/11/notes.md))
+  * [XI](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/11) ([notes.md](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/11/notes.md))
     - Scripting exercise (Are you ready?)
 
-  * [12](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/12) ([notes.md](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/12/notes.md))
+  * [XII](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/12) ([notes.md](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/12/notes.md))
     - Scripting exercise continued
     - Miscellaneous Vim tricks
 
-  * [13](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/13) ([notes.md](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/13/notes.md))
+  * [XIII](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/13) ([notes.md](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/13/notes.md))
     - Python script for checking duplicate packets in specially formatted large files
 
-  * [14](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/14) ([notes.md](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/14/notes.md))
+  * [XIV](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/14) ([notes.md](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/14/notes.md))
     - Modifying previous Python script
 
-  * [15](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/15) ([notes.md](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/15/notes.md))
+  * [XV](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/15) ([notes.md](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/15/notes.md))
     - Discussing a shell script and some static code checkers
+
+  * [XVI](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/16) ([notes.md](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/16/notes.md))
+    - Getting familiar with TDD ([Test-driven development](https://en.wikipedia.org/wiki/Test-driven_development))
+    - Implementing FizzBuzz using TDD
