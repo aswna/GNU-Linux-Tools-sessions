@@ -94,3 +94,6 @@ The final PDF files (<code>presentation.pdf</code>) are also added to this repos
   * [XVI](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/16) ([notes.md](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/16/notes.md))
     - Getting familiar with TDD (Test-driven development)
     - Implementing FizzBuzz using TDD
+
+  * [XVII](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/17) ([notes.md](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/17/notes.md))
+    - Implementing FizzBuzz using TDD, continued
