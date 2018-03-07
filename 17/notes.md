@@ -1,5 +1,5 @@
 # Notes
-## Implementing FizzBuzz using TDD, continued
+## Implementing FizzBuzz using TDD (part 2.)
 So far, we implemented the following: [test_fizzbuzz.sh](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/17/test_fizzbuzz.sh) and
 [fizzbuzz.sh](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/17/fizzbuzz.sh) scripts.
 
