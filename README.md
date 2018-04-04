@@ -109,3 +109,6 @@ The final PDF files (<code>presentation.pdf</code>) are also added to this repos
 
   * [XXI](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/21) ([notes.md](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/21/notes.md))
     - Executing OS commands from Python code
+
+  * [XXII](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/22) ([notes.md](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/22/notes.md))
+    - Investigating Python code
