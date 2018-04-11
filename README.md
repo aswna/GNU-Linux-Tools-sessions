@@ -112,3 +112,6 @@ The final PDF files (<code>presentation.pdf</code>) are also added to this repos
 
   * [XXII](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/22) ([notes.md](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/22/notes.md))
     - Investigating Python code
+
+  * [XXIII](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/23) ([notes.md](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/23/notes.md))
+    - My configuration settings for the shell (zsh), GNU screen, git, and vim
