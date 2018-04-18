@@ -115,3 +115,6 @@ The final PDF files (<code>presentation.pdf</code>) are also added to this repos
 
   * [XXIII](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/23) ([notes.md](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/23/notes.md))
     - My configuration settings for the shell (zsh), GNU screen, git, and vim
+
+  * [XXIV](https://github.com/aswna/GNU-Linux-Tools-sessions/tree/master/24) ([notes.md](https://github.com/aswna/GNU-Linux-Tools-sessions/blob/master/24/notes.md))
+    - Git and Gerrit basics
